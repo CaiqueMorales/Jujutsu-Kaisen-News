@@ -7,17 +7,19 @@ const NavBar = () => {
 
     const clicar = () => setClick(!click)
 
+    const fechar = () => setClick(false)
+
     return(
 
         <div id="nav">
             
-            <div className="nav_logo">
+            <div className="nav_logo" onClick={fechar}>
                 <a href="#home">Jujutsu Kaisen</a>
             </div>
 
             <ul className={click ? "nav_menu active" : "nav_menu"}>
                 <li className="nav_item"><a onClick={clicar} href="#home" className="nav_link">Home</a></li>
-                <li className="nav_item"><a onClick={clicar}href="#sobre" className="nav_link">Sobre</a></li>
+                <li className="nav_item"><a onClick={clicar}href="#noticias" className="nav_link">Noticias</a></li>
                 <li className="nav_item"><a onClick={clicar} href="#anime" className="nav_link">Anime</a></li>
                 <li className="nav_item"><a onClick={clicar} href="#manga" className="nav_link">Manga</a></li>
             </ul>

@@ -1,11 +1,12 @@
 #nav{
     height: 70px;
-    position: absolute;
+    position: fixed;
     background-color: #2c2541;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    z-index: 9999;
 }
 
 #nav a{
@@ -89,8 +90,7 @@
         height: 0;
     }
     .button_container{
-        border-top: 2px solid #2c2541;
-        border-bottom: 2px solid #2c2541;
+        border-top: 1px solid #2c2541;
         padding-bottom: 1px;
         background-color: #201c2b;
         position: absolute;
