@@ -1,17 +1,38 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
 
 const NavBar = () => {
 
     const [click, setClick] = useState(false)
 
-    const clicar = () => setClick(!click)
+    const clicar = () => setClick(!click);
 
     const fechar = () => setClick(false)
 
+    const [fundo, setFundo] = useState(true)
+
+    useEffect(() => {
+
+        const scrollListener = () => {
+
+            if(window.scrollY > 10){
+                setFundo(false)
+            } else {
+                setFundo(true)
+            }
+
+        }
+
+        window.addEventListener('scroll', scrollListener);
+        return () => {
+            window.removeEventListener('scroll', scrollListener);
+        }
+
+    })
+
     return(
 
-        <div id="nav">
+        <div className={fundo ? "nav active" : "nav"}>
             
             <div className="nav_logo" onClick={fechar}>
                 <a href="#home">Jujutsu Kaisen</a>
