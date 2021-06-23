@@ -15,7 +15,7 @@ const NavBar = () => {
 
         const scrollListener = () => {
 
-            if(window.scrollY > 10){
+            if(window.scrollY > 30){
                 setFundo(false)
             } else {
                 setFundo(true)

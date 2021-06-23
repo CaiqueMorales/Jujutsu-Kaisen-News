@@ -1,5 +1,5 @@
 #home{
-    background: url(../../assets/rain.gif) fixed no-repeat;
+    background: url(../../assets/1120777.jpg) fixed no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -16,7 +16,12 @@
     text-align: center;
     font-size: 40px;
     color: #fff;
-    padding-bottom: 40px;
+    background-color: #1b1727;
+    font-weight: bolder;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .home_button_container{
@@ -25,16 +30,13 @@
 
 .home_button{
     padding: 15px 25px;
-    background-color: #2c2541;
     color: #fff;
+    background-color: #0f0d16;
     text-decoration: none;
     transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.home_button:hover{
-    background-color: #181424;
-    transform: scale(1.2);
-}
 
 .home_button:last-of-type{
     margin-left: 30px;
@@ -46,6 +48,12 @@
 }
 
 @media screen and (max-width: 700px) {
+    #home{
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+        background: url(../../assets/mobile1.jpg) fixed no-repeat;
+        background-size: cover;
+    }
     .home_button_container{
         flex-direction: column;
     }

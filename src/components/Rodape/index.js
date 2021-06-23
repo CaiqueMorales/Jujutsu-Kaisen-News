@@ -9,15 +9,15 @@ const Rodape = () => {
             <div className="rodape_container">
                 <div className="rodape_semicontainer">
                     <h4 className="rodape_titulo">Extras</h4>
-                    <p className="rodape_item">Trailer 1</p>
-                    <p className="rodape_item">Trailer 2</p>
-                    <p className="rodape_item">Trailer 3</p>
+                    <p className="rodape_item">Trailer</p>
+                    <p className="rodape_item">Bastidores</p>
+                    <p className="rodape_item">Autores</p>
                 </div>
                     <div className="rodape_semicontainer">
                         <h4 className="rodape_titulo">Contate-nos</h4>
-                        <p className="rodape_item">aecaique@gmail.com</p>
-                        <p className="rodape_item">(11) 96193-0889</p>
-                        <p className="rodape_item">(11) 96193-0889</p>
+                        <p className="rodape_item">WhatsApp</p>
+                        <p className="rodape_item">Email</p>
+                        <p className="rodape_item">Telegram</p>
                     </div>
                 <div className="rodape_semicontainer">
                     <h4 className="rodape_titulo">Redes Sociais</h4>

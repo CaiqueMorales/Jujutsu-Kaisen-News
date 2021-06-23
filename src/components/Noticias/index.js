@@ -32,10 +32,10 @@ const Noticias = () => {
                 <a href="https://www.instagram.com/p/COoC23aDG0G/" className="card semi-card">
                     <figure>
                     <img src={Sukuna} alt="Sukuna" />
-                    <figcaption>Fã faz cosplay perfeita de Nobara Kugisake, co-protagonista do anime Jujutsu Kaisen.</figcaption>
+                    <figcaption>Fã faz cosplay perfeita de Nobara Kugisake, co-protagonista do anime.</figcaption>
                     </figure>
                 </a>
-                <a href="https://ovicio.com.br/jujutsu-kaisen-filme-revela-visual-e-descricao-oficial-de-yuta/" className="card semi-card">
+                <a href="https://www.omelete.com.br/anime-manga/jujutsu-kaisen-filme-visual-yuta" className="card semi-card">
                     <figure>
                     <img src={Sukuna} alt="Sukuna" />
                     <figcaption>Filme revela Visual e História do proganista Yuta.</figcaption>
