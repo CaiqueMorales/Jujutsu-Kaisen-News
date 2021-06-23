@@ -1,8 +1,7 @@
 #home{
-    background: url(../../assets/moon.jpg) fixed no-repeat;
+    background: url(../../assets/rain.gif) fixed no-repeat;
     background-size: cover;
-    height: calc(100vh - 70px);
-    padding-top: 70px;
+    height: 100vh;
 }
 
 .home_container{

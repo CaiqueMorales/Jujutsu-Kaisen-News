@@ -22,17 +22,23 @@ const Noticias = () => {
                     <figcaption>Manga de Jujutsu Kaisen será interrompido devido a problemas de saúde do escritor.</figcaption>
                     </figure>
                 </a>
-                <a href="https://screenrant.com/jujutsu-kaisen-season-1-best-episodes-imdb/" className="card">
+                <a href="https://screenrant.com/jujutsu-kaisen-season-1-best-episodes-imdb/" className="card semi-card">
                     <figure>
                     <img src={Sukuna} alt="Sukuna" />
                     <figcaption>Veja quais são os 10 episódeos mais bem avaliados segundo pesquisa do IMBD.
                     </figcaption>
                     </figure>
                 </a>
-                <a href="https://www.instagram.com/p/COoC23aDG0G/" className="card">
+                <a href="https://www.instagram.com/p/COoC23aDG0G/" className="card semi-card">
                     <figure>
                     <img src={Sukuna} alt="Sukuna" />
                     <figcaption>Fã faz cosplay perfeita de Nobara Kugisake, co-protagonista do anime Jujutsu Kaisen.</figcaption>
+                    </figure>
+                </a>
+                <a href="https://ovicio.com.br/jujutsu-kaisen-filme-revela-visual-e-descricao-oficial-de-yuta/" className="card semi-card">
+                    <figure>
+                    <img src={Sukuna} alt="Sukuna" />
+                    <figcaption>Filme revela Visual e História do proganista Yuta.</figcaption>
                     </figure>
                 </a>
             </div>
