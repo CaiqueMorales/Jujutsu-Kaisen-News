@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom';
 import './style.css';
 
 const NavBar = () => {
@@ -39,10 +40,10 @@ const NavBar = () => {
             </div>
 
             <ul className={click ? "nav_menu active" : "nav_menu"}>
-                <li className="nav_item"><a onClick={clicar} href="#home" className="nav_link">Home</a></li>
-                <li className="nav_item"><a onClick={clicar}href="#noticias" className="nav_link">Noticias</a></li>
-                <li className="nav_item"><a onClick={clicar} href="#anime" className="nav_link">Anime</a></li>
-                <li className="nav_item"><a onClick={clicar} href="#manga" className="nav_link">Manga</a></li>
+                <li className="nav_item"><Link to="/" onClick={clicar} className="nav_link">Home</Link></li>
+                <li className="nav_item"><Link to="/novidades" onClick={clicar} className="nav_link">Noticias</Link></li>
+                <li className="nav_item"><Link to="/anime" onClick={clicar} className="nav_link">Anime</Link></li>
+                <li className="nav_item"><Link to="/manga" onClick={clicar} className="nav_link">Manga</Link></li>
             </ul>
 
             <div className={click ? "button_container active" : "button_container"}>

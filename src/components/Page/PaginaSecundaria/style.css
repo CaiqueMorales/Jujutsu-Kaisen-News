@@ -1,0 +1,12 @@
+.novidades{
+    background-color: red;
+    height: 100vh;
+    color: #fff;
+}
+
+.novidades_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

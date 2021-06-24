@@ -1,0 +1,12 @@
+.manga{
+    background-color: green;
+    height: 100vh;
+    color: #fff;
+}
+
+.manga_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
