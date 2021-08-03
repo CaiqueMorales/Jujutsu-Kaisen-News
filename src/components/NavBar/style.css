@@ -50,8 +50,8 @@
 
 .nav_item:hover::after{
     background-color: #fff;
-    left: 0%;
-    width: 100%;
+    left: 10%;
+    width: 80%;
 }
 
 .nav_link{
